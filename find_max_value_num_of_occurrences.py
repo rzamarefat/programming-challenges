@@ -1,3 +1,8 @@
+"""
+Find the largest number in a given list and its number of occurrences
+"""
+
+
 def find_max_value_num_of_occurrences(target_list):
     max_value = 0
     for i in target_list:

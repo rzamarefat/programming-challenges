@@ -1,3 +1,8 @@
+"""
+Find the longest common prefix in the two given strings
+"""
+
+
 def longest_common_prefix(string_one, string_two):
     common_prefix = ""
 
@@ -12,7 +17,7 @@ def longest_common_prefix(string_one, string_two):
 
     if common_prefix == "":
         common_prefix = "None"
-        
+
     print(f"The common prefix in {string_one} and {string_two} is {common_prefix}")
 
 
